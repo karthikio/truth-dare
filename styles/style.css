@@ -7,8 +7,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #333333;
-  width: 100%;
-  height: 100vh;
 }
 
 .home-container {
@@ -16,7 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   justify-content: center;
   padding: 8px 10px;
   overflow: hidden;

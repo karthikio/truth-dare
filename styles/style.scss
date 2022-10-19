@@ -1,17 +1,17 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
+body{
+  font-family: 'Roboto', sans-serif;
   background-color: #333333;
   width: 100%;
   height: 100vh;
 }
 
-.home-container {
+.home-container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,12 @@ body {
 }
 
 /* font */
-h1 {
+h1{
   color: #f5f6f7;
   margin-bottom: 25px;
 }
 
-.text {
+.text{
   color: #ffffff;
   text-align: center;
   padding: 0 20px;
@@ -36,12 +36,12 @@ h1 {
 }
 
 /* btn */
-.btn-container {
+.btn-container{
   display: flex;
   margin-bottom: 20px;
 }
 
-.btn {
+.btn{
   width: 100px;
   border: none;
   outline: none;
@@ -54,19 +54,17 @@ h1 {
 }
 
 /* true btn */
-.truth-btn {
+.truth-btn{
   color: #f1ff27;
 }
-
-.truth-btn:focus {
+.truth-btn:focus{
   border: 2px solid #f1ff27;
 }
 
 /* dare btn */
-.dare-btn {
+.dare-btn{
   color: #ff1c59;
 }
-
-.dare-btn:focus {
+.dare-btn:focus{
   border: 2px solid #ff1c59;
-}/*# sourceMappingURL=style.css.map */
+}
